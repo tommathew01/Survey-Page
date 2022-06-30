@@ -1,0 +1,51 @@
+.form-full{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 500px;
+    
+}
+
+.heading{
+    justify-content: center;
+}
+
+.form_heading{
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+#name{
+    margin-bottom: 10px;
+    width:50%;
+}
+
+#dept{
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+#info{
+    resize: none;
+    width: 50%
+    /* margin-bottom: 10px; */
+}
+
+#yes_no {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#read{
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+}
+
+#submit{
+    margin-top: 10px;
+}
+/* 
+label{
+    display: inline-block;
+    width: 240px;
+} */

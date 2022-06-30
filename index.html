@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Survey</title>
+</head>
+<body>
+    <div class="form-full">
+        <div class="heading">
+            <h1 class="form_heading">Employee Interest Survey Form</h1>
+        </div>
+
+    <div class="form">
+        <form>
+            <label for="name">Enter your Name: </label>
+            <input type="text" name="name" id="name" size="16px"><br>
+    
+            <label for="dept">Enter your Department: </label>
+            <input type="text" name="dept" id="dept" ><br>
+    
+            <label for="info" id="info_text">Tell us a little about yourself:</label>
+            <textarea name="info" id="info" rows="6" ></textarea><br>
+            <!-- <input type="text" name="info" id="info" size="40"><br> -->
+    
+            <label for="exercise">Do you Exercise at home? </label>
+            <input type="radio" name="exercise" id="yes_no" value="yes" >
+            <label for="yes">Yes</label>
+            <input type="radio" name="exercise" id="yes_no" value="no">
+            <label for="no">No</label><br>
+    
+            <label for="read">How do you like to read about your favourite topics?</label><br>
+            <input type="checkbox" name="read" id="read" value="books">
+            <label for="books">Books</label>
+            <input type="checkbox" name="read" id="read" value="online">
+            <label for="online">Online Resources</label>
+            <input type="checkbox" name="read" id="read" value="apps">
+            <label for="apps">Phone Apps</label>
+            <input type="checkbox" name="read" id="read" value="magazines">
+            <label for="magazines">Magazines</label>
+    
+            <br><label for="movies" >What genre of movies do you like?</label>
+            <input list="genres">
+            <datalist id="genres">
+                <option value="Comedy"></option>
+                <option value="Romance"></option>
+                <option value="Thriller"></option>
+                <option value="Action"></option>
+            </datalist>
+    
+            <br><input type="submit" id="submit" value="Submit Form">
+        </form>
+    </div>
+</div>
+</body>
+</html>
